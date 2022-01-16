@@ -2,6 +2,8 @@ package com.myp.persistence;
 
 import java.util.List;
 
+import com.comento.domain.BoardVO;
+
 public interface BoardDAO {
 	
 	public void create(BoardVO vo) throws Exception;

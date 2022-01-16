@@ -1,4 +1,4 @@
-package com.myp.service;
+package com.sample.service;
 
 import java.util.List;
 import javax.inject.Inject;
