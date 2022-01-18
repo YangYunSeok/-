@@ -1,15 +1,14 @@
 package com.sample.service;
 
 import java.util.List;
-import javax.inject.Inject;
+
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import com.comento.domain.BoardVO;
-import com.myp.persistence.BoardDAO;
+import com.comento.persistence.BoardDAO;
 
-@Service
-
+@Repository
 public class BoardServiceImpl implements BoardService {
-	 @Inject
 	  private BoardDAO dao;
 
 	@Override

@@ -1,8 +1,12 @@
 package com.sample.service;
 
 import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import com.comento.domain.BoardVO;
 
+@Service
 public interface BoardService {
 
 	  public void regist(BoardVO board) throws Exception;
